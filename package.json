@@ -8,6 +8,10 @@
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "browsersync": "node browsersync.js",
+    "dev:full": "node dev.js",
     "watch:build": "chokidar 'src/resources/js/**/*.js' 'src/resources/css/**/*.css' -c 'npm run build'",
     "lint:js": "eslint src/resources/js --ext .js",
     "format:js": "prettier --write src/resources/js/**/*.js",

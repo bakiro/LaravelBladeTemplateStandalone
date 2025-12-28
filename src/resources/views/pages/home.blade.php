@@ -3,5 +3,5 @@
 @section('title', 'Página de Inicio')
 
 @section('content')
-    <h1>Bienvenido a tu template Laravel</h1>
+    <h1>Welcome to your Laravel template</h1>
 @endsection

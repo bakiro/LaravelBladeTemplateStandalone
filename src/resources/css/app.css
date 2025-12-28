@@ -1,0 +1,8 @@
+/* src/resources/css/app.css */
+body {
+    background: #f8fafc;
+    font-family: system-ui, sans-serif;
+}
+h1 {
+    color: #1f355a;
+}

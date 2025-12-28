@@ -1,0 +1,37 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Example
+/example/
+
+# Composer
+/vendor/
+composer.lock
+
+# Vite/Build
+public/build/
+.cache/
+.cache
+
+# Blade cache
+/cache/
+
+# IDEs/Editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# OS
+Thumbs.db
+
+# Logs
+*.log
+error.log
+
+# Otros
+.env
+
+# Copias temporales
+*.bak

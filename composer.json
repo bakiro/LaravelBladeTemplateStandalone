@@ -1,0 +1,25 @@
+{
+    "name": "bakiro/laravel-blade-template-standalone",
+    "description": "Laravel Blade Template Standalone",
+    "type": "template",
+    "autoload": {
+        "psr-4": {
+            "Bakiro\\LaravelBladeTemplateStandalone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gerardo Cignarella",
+            "email": "cignarella.gerardo@gmail.com",
+            "homepage": "https://github.com/bakiro"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "^2.0",
+        "illuminate/view": "11.7.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpstan/phpstan": "^2.1"
+    }
+}
